@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+}
+
+.home_container {
+    position: relative;
+    height: 100%;
+}
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 5%;
+}
+
+.sidebar img {
+    width: 150px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.sidebar h4 {
+    color: grey;
+}
+
+.container {
+    background-image: url('../image/home_page_bg_2.jpeg');
+    height: 100vh;
+    margin-left: 26%;
+    color: #fff;
+    position: relative;
+}
+
+.container_mask {
+    height: 100vh;
+    /* opacity: 50%; */
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.container_text {
+    width: 100%;
+    position: absolute;
+    font-family: Oswald, Helvetica, sans-serif;
+}
+
+.container .user_name {
+    font-size: 60px;
+    margin: 0px;
+    padding-top: 25%;
+}
+
+.container .user_role {
+    color: rgb(255, 255, 255);
+    opacity: 25%;
+}
+
+#nav {
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(237,236,236);
+}
+
+#nav li.active {
+    border-top: 1px solid rgb(237,236,236);
+    background-color:rgb(237,236,236);
+}
+
+li.active a:after {
+    background-color: #f4c052;
+    display: block;
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom: 0px;
+    width: 3px;
+    height: 100%;   
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container_text #information {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+}
+
+#information b {
+    text-decoration: underline;
+}
+
+.container_text li {
+    padding-bottom: 20px;
+}
+
+.aboutme_container {
+    padding: 3% 0% 0% 27%;
+}
+
+.aboutme_container span {
+    background-color: rgb(255, 187, 0);
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.aboutme_container table {
+    width: 100%;
+}
+
+.aboutme_container .extraInfo {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.aboutme_container img {
+    width: 100px;
+    height: 100px;
+}
+
+.funfacts img {
+    width: 150px;
+}

@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+}
+
+.portfolio_container {
+    position: relative;
+    height: 100%;
+}
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 5%;
+}
+
+.sidebar img {
+    width: 7rem;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.sidebar h4 {
+    color: grey;
+}
+
+#nav {
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(237,236,236);
+}
+
+#nav li.active {
+    border-top: 1px solid rgb(237,236,236);
+    background-color:rgb(237,236,236);
+}
+
+li.active a:after {
+    background-color: #f4c052;
+    display: block;
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom: 0px;
+    width: 3px;
+    height: 100%;   
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    padding: 3% 0% 0% 27%;
+}
+
+.container span {
+    background-color: rgb(255, 187, 0);
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.image img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+.port_nav_container {
+    text-align: center;
+}
+
+#port_nav {
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 1.5rem;
+}
+
+#port_nav .active {
+    background-color: #f4c052;
+    color: white;
+}
+
+#port_nav li {
+    padding: 7px;
+}
+
+@media only screen and (max-width: 426) {
+    .image img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 768) {
+    .image img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
